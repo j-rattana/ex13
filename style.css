@@ -15,3 +15,13 @@ body {
   width: 480px;
   margin: 0 auto;
 }
+
+.intro {
+  padding: 1.3rem 1rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  background-color: rebeccapurple;
+  color: #ffffff;
+}
