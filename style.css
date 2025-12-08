@@ -5,6 +5,13 @@
 }
 
 html {
-  font-size: 24px;
-  color: #144031;
+  font-size: 18px;
+  background-color: #D6D0FF;
+  color: #2e1b47; 
+  font-family: Arial, sans-serif;
+}
+
+body {
+  width: 480px;
+  margin: 0 auto;
 }
