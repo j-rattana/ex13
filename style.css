@@ -25,3 +25,41 @@ body {
   background-color: rebeccapurple;
   color: #ffffff;
 }
+
+.content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 200px 400px 200px;
+  padding: 5px 5px;
+  gap: 10px;
+}
+
+.text1, .text2, .text3 {
+  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: mediumpurple
+}
+
+p {
+  font-size: 0.7rem;
+  line-height: 1.4em;
+  margin-bottom: 0.8rem;
+}
+
+.image1, .image2, .image3 {
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.image1 { background-image: url("https://i.pinimg.com/1200x/9c/84/c7/9c84c79dfe66e76583f26a8bba127aa5.jpg");}
+.image2 { background-image: url("https://i.pinimg.com/736x/ff/07/26/ff0726f2a54d176cdb9f634e17c14d1d.jpg");}
+.image3 { background-image: url("https://i.pinimg.com/1200x/6c/ba/ce/6cbace4a28cc5e33aab2e269c969fdf7.jpg");}
